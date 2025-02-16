@@ -59,3 +59,5 @@ export const Description = styled.p`
     margin-left: 10px;
   }
 `;
+
+export const CardSession = styled.div``;

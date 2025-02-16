@@ -16,8 +16,6 @@ export const HeaderContainer = styled.header`
     min-height: 50vh;
     padding: 0px;
 
-    height: 100px;
-
     justify-content: center;
   }
 `;
