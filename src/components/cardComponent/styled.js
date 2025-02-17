@@ -49,4 +49,11 @@ export const CardDescription = styled.p`
 
 export const CardContainer = styled.div``;
 
-export const Title = styled.h1``;
+export const Title = styled.h1`
+  margin: 20px;
+
+  @media (max-width: 768px) {
+    margin-top: 70px;
+    margin-left: 30px;
+  }
+`;

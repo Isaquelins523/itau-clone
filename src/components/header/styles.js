@@ -2,18 +2,20 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   background-color: #ff6200;
-  padding: 20px;
+  padding-left: 15px;
+  padding-right: 0;
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
 
   img {
-    width: 70px;
+    width: 50px;
     margin-right: 30px;
+    margin-left: 90px;
   }
 
   @media (max-width: 768px) {
-    min-height: 50vh;
+    min-height: 20vh;
     padding: 0px;
 
     justify-content: center;
@@ -29,8 +31,7 @@ export const Logo = styled.div`
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
-  gap: 50px;
-
+  margin-right: 170px;
   a {
     color: white;
     margin: 0 15px;
@@ -54,12 +55,12 @@ export const InputContainer = styled.div`
   background: white;
   border-radius: 10px;
   border: none;
-  margin-right: 32px;
+  margin-right: 22px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   padding: 10px;
 
   height: 100%;
-  width: 323px;
+  width: 15%;
 
   @media (max-width: 768px) {
     margin-left: 30px;
@@ -75,7 +76,7 @@ export const Input = styled.input`
   padding: 5px;
   -moz-appearance: textfield;
   flex: 1;
-  min-width: 50px;
+  min-width: 30px;
 
   &:first-child {
     margin-right: 10px;
@@ -83,7 +84,7 @@ export const Input = styled.input`
 `;
 
 export const Divider = styled.div`
-  height: 100%;
+  height: 30px;
   width: 1px;
   background: gray;
   margin: 0 10px;
