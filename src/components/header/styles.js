@@ -8,18 +8,17 @@ export const HeaderContainer = styled.header`
 
   align-items: center;
 
-  img {
-    width: 50px;
-    margin-right: 30px;
-    margin-left: 90px;
-  }
-
   @media (max-width: 768px) {
     min-height: 20vh;
     padding: 0px;
 
     justify-content: center;
   }
+`;
+export const ItauImage = styled.img`
+  width: 50px;
+  margin-right: 30px;
+  margin-left: 90px;
 `;
 
 export const Logo = styled.div`
@@ -32,11 +31,13 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   margin-right: 170px;
+
   a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
     font-size: 1.5rem;
+    font-weight: bold;
 
     &:hover {
       margin-bottom: 10px;
@@ -55,7 +56,7 @@ export const InputContainer = styled.div`
   background: white;
   border-radius: 10px;
   border: none;
-  margin-right: 22px;
+  margin-right: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   padding: 10px;
 
@@ -89,4 +90,18 @@ export const Divider = styled.div`
   background: gray;
   margin: 0 10px;
   align-self: stretch;
+`;
+
+export const IconImage = styled.img`
+  max-width: 81px;
+  max-height: 80px;
+  border-radius: 17px;
+  padding: 8px;
+  margin-right: 25px;
+  cursor: pointer;
+  background: #d3d3d3;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;

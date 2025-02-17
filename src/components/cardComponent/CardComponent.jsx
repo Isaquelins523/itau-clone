@@ -11,16 +11,42 @@ import CodigoBarras from "../../assets/codigo-de-barras.png";
 
 const CardComponent = () => {
   return (
-    <CardContainer>
+    <>
       <Title>Resolva as questões do dia a dia </Title>
-      <Card>
-        <CardImage src={CodigoBarras} alt="Imagem do Card" />
-        <CardContent>
-          <CardTitle>Boleto</CardTitle>
-          <CardDescription>Emita a 2º via de boletos Itaú</CardDescription>
-        </CardContent>
-      </Card>
-    </CardContainer>
+      <CardContainer>
+        <Card>
+          <CardImage src={CodigoBarras} alt="Imagem do Card" />
+          <CardContent>
+            <CardTitle>Boleto</CardTitle>
+            <CardDescription>Emita a 2º via de boletos Itaú</CardDescription>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardImage src={CodigoBarras} alt="Imagem do Card" />
+          <CardContent>
+            <CardTitle>Boleto</CardTitle>
+            <CardDescription>Emita a 2º via de boletos Itaú</CardDescription>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardImage src={CodigoBarras} alt="Imagem do Card" />
+          <CardContent>
+            <CardTitle>Boleto</CardTitle>
+            <CardDescription>Emita a 2º via de boletos Itaú</CardDescription>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardImage src={CodigoBarras} alt="Imagem do Card" />
+          <CardContent>
+            <CardTitle>Boleto</CardTitle>
+            <CardDescription>Emita a 2º via de boletos Itaú</CardDescription>
+          </CardContent>
+        </Card>
+      </CardContainer>
+    </>
   );
 };
 

@@ -38,7 +38,7 @@ export const Banner = styled.section`
 
 export const Title = styled.h1`
   font-size: 2rem;
-  max-width: 90%;
+  max-width: 40%;
   margin-left: 30px;
   line-height: 1.6;
 
@@ -52,7 +52,7 @@ export const Description = styled.p`
   font-size: 1.7rem;
   margin-top: 13px;
   margin-left: 30px;
-  max-width: 90%;
+  max-width: 45%;
 
   @media (max-width: 768px) {
     font-size: 1.2rem;

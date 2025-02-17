@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  width: 300px;
-  height: 30vh;
+  width: 207px;
+  height: 28vh;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -21,6 +21,7 @@ export const Card = styled.div`
 
   @media (max-width: 768px) {
     width: 90%;
+    height: 65%;
   }
 `;
 
@@ -41,13 +42,21 @@ export const CardContent = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  padding: 10px;
 `;
 
 export const CardDescription = styled.p`
   color: #666;
+  margin-left: 40px;
 `;
 
-export const CardContainer = styled.div``;
+export const CardContainer = styled.div`
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
 
 export const Title = styled.h1`
   margin: 20px;
