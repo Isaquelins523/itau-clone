@@ -9,7 +9,7 @@ export const HeaderContainer = styled.header`
   align-items: center;
 
   @media (max-width: 768px) {
-    min-height: 20vh;
+    min-height: 18vh;
     padding: 0px;
 
     justify-content: center;

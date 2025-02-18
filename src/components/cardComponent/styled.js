@@ -1,5 +1,14 @@
 import styled from "styled-components";
 
+export const CardContainer = styled.div`
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
 export const Card = styled.div`
   width: 207px;
   height: 28vh;
@@ -48,14 +57,6 @@ export const CardContent = styled.div`
 export const CardDescription = styled.p`
   color: #666;
   margin-left: 40px;
-`;
-
-export const CardContainer = styled.div`
-  display: flex;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
 `;
 
 export const Title = styled.h1`
