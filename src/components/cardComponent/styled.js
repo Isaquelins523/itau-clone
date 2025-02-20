@@ -10,8 +10,8 @@ export const CardContainer = styled.div`
 `;
 
 export const Card = styled.div`
-  width: 207px;
-  height: 28vh;
+  width: 230px;
+  height: 30vh;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -22,7 +22,7 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
 
-  margin: 30px;
+  margin: 15px;
 
   &:hover {
     transform: scale(1.05);
@@ -35,28 +35,30 @@ export const Card = styled.div`
 `;
 
 export const CardImage = styled.img`
-  width: 50px;
+  width: 40px;
   margin-left: 25px;
   margin-top: 10px;
-
-  &:hover {
-    color: #ff6200;
-  }
 `;
 
-export const CardTitle = styled.h2``;
+export const CardTitle = styled.h2`
+  font-size: 1.2rem;
+  max-width: 200px;
+  margin-top: 15px;
+`;
 
 export const CardContent = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  padding: 10px;
+
+  margin: 15px 30px;
+  gap: 11px;
 `;
 
 export const CardDescription = styled.p`
   color: #666;
-  margin-left: 40px;
+
+  font-size: 1.2rem;
+  max-width: 150px;
 `;
 
 export const Title = styled.h1`

@@ -6,10 +6,17 @@ export const HeaderContainer = styled.header`
   padding-right: 0;
   display: flex;
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  min-height: 10vh;
+
   align-items: center;
 
   @media (max-width: 768px) {
-    min-height: 18vh;
+    min-height: 10vh;
     padding: 0px;
 
     justify-content: center;

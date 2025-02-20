@@ -22,6 +22,7 @@ export const Banner = styled.section`
   background-position: center;
 
   min-height: 100vh;
+  min-width: 100vw;
   color: white;
   padding: 5vw;
   text-align: left;
